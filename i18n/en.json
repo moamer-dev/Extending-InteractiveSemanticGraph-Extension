@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": ["Simon Stier", "Alexander Triol"]
+	},
+	"interactive-semantic-graph-editor-desc": "InteractiveSemanticGraph for mediawiki extensions",
+	"interactive-semantic-graph-editor-name": "InteractiveSemanticGraph"
+}
