@@ -1,0 +1,2 @@
+# Extending-InteractiveSemanticGraph-Extension
+Extending the Features of Mediawiki extensions InteractiveSemanticGraph
