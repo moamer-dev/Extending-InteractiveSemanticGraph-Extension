@@ -70,7 +70,7 @@ $(document).ready(function () {
 
         
 
-        $(".InteractiveSemanticGraph").each(function (index) {  //cus_properties array has been added to defaultOptions in order to declare the properties that admin wish to dispaly on the right click menu **Mohamed**
+        $(".InteractiveSemanticGraph").each(function (index) {  //cus_properties array has been added to defaultOptions in order to declare the properties that admin wish to discard on the right click menu **Mohamed**
             if ($('.InteractiveSemanticGraph').length) { //check if div element(s) exist
                 var defaultOptions = { "root": "", "properties": [], "ignore_properties": [], "permalink": false, "sync_permalink": false, "edit": false, "hint": false, "treat_non_existing_pages_as_literals": false, "edge_labels": true, "cus_properties": []};
                 var userOptions = {};
@@ -1005,18 +1005,6 @@ $(document).ready(function () {
                                                     ul.append(li);
                                                 }
                                                 
-                                                /*
-                                                // Ingesting the previously declared properties on cus_properties to the right click menu and exclude the rest **Mohamed**
-                                                for (var x = 0; x < input.cus_properties.length; x++){
-                                                    
-                                                    if (li.getAttribute('def_label') == input.cus_properties[x]){
-
-                                                        ul.append(li);
-                                                    }
-                                                    else{
-                                                        continue;
-                                                    }
-                                                } */
                                                     
                                             } 
                                             
