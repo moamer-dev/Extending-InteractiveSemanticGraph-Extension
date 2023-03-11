@@ -126,48 +126,6 @@ $(document).ready(function () {
                     });
                 }
 
-                /*    
-                (async () => {
-                    var glob_obj;
-                    var glob_entries;
-
-                    //var obj;
-                    var arr; 
-                  
-                    async function getProperties() {
-                  
-                        let brws_url = "https://test.service.tib.eu/sfb1153/wiki/api.php?action=smwbrowse&browse=property&params={%20%22limit%22:%201000,%20%22offset%22:%200,%20%22search%22:%20%22*%22,%20%22description%22:%20true,%20%22prefLabel%22:%20true,%20%22usageCount%22:%20true%20}&format=json";
-                  
-                        return fetch(brws_url)
-                        .then(res => res.json())
-                        .then(response => {
-                            //obj = response;
-                            arr = Object.entries(response.query);
-                            var new_obj = new Object();
-
-
-                          for (var i = 0; i < input.properties.length; i++) {    
-                            for (var j = 0; j < arr.length; j++) {
-                                if(arr[j][0] == input.properties[i]){
-                                    //new_arr.push(arr[j][1].prefLabel.en);
-                                    new_obj[arr[j][0]]=arr[j][1].prefLabel.en;}
-                                }
-                            
-                            //for (const [key, value] of Object.entries(new_obj)) {
-                                  //if (key == input.properties[i]){
-                                      //propertyName.innerHTML = value;}
-                                  //else {propertyName.innerHTML = input.properties[i]}}
-                            }
-                    
-                    
-                          glob_obj = new_obj; 
-                          glob_entries = Object.entries(glob_obj);
-                        })
-                    }
-                  
-                    await getProperties(); 
-                    */
-
 
                 //Global Browse Request to ingest the page properties prefered labels in a global object == glob_obj that could be used globally **Mohamed**
                 (async () => {
